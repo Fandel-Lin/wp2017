@@ -94,6 +94,7 @@ $( document ).ready(function() {
 		$("#PageFooter").css("top",$("#PageContainer").css("height"));
 		$("#PageJumbotron").css("top",parseInt($("#PageContainer2").css("height"))*(-1)+"px");
 		entered="#PageRow3";
+		detail_pic="#Hobby_detail_pic";
 		container2_height=parseInt($("#PageContainer2").css("height"));
 		
 		setTimeout(function(){ 

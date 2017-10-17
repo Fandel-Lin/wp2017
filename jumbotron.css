@@ -2,3 +2,101 @@
 body {
   padding-top: 3.5rem;
 }
+
+div {
+	transition: left 0.7s;
+}
+
+footer {
+	position: relative;
+	top: 0px;
+	transition: 0.7s;
+}
+
+.mybutton {
+	border: 2px solid rgb(180, 180, 180);
+    border-radius: 20px;
+	margin: 10px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.7s;
+}
+
+.mybutton:hover {
+	background: rgb(210, 210, 210);
+}
+
+#Back {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	display: none;
+	left: -30px;
+	transition: 0.7s;
+}
+
+#PageRow {
+	position: relative;
+	top: 0px;
+	transition: 0.7s;
+}
+
+#PageFooter {
+	position: relative;
+	top: 0px;
+	transition: 0.7s;
+}
+
+#PageJumbotron {
+	position: relative;
+	top: 0px;
+	transition: 0.7s;
+}
+
+#PageContainer{
+	position: relative;
+	overflow: hidden;
+}
+
+#PageContainer2{
+	position: relative;
+	overflow: hidden;
+}
+
+#PageRow1{
+	position: absolute;
+	transition: 0s;
+	top: 0px;
+	display: none;
+	max-width: 100%;
+}
+
+#Skill_detail{
+	max-width: 100%;
+}
+
+#PageRow2{
+	position: absolute;
+	transition: 0s;
+	top: 0px;
+	display: none;
+	max-width: 100%;
+}
+
+#Motivation_detail{
+	max-width: 100%;
+}
+
+#PageRow3{
+	position: absolute;
+	transition: 0s;
+	top: 0px;
+	display: none;
+	max-width: 100%;
+}
+
+#Hobby_detail{
+	max-width: 100%;
+}
+

@@ -18,51 +18,94 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">WP2017</a>
-      
-	  
+		<div>
+			<img id="Back" src="Back.png"></img>
+			<a class="navbar-brand" href="#">WP2017</a>
+		</div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-5">Fandel Lin</h1>
-        <p>Student from NCKU EE.</p>
-      </div>
-    </div>
+	<div id="PageContainer2">
+		<div class="jumbotron" id="PageJumbotron">
+		  <div class="container">
+			<h1 class="display-5">Fandel Lin</h1>
+			<p>Student from NCKU EE.</p>
+		  </div>
+		</div>
+	</div>
+	
+	
 
-    <div class="container">
+    <div class="container" id="PageContainer">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row" id="PageRow">
+        <div class="col-md-4" id="Skill">
+			<div class="mybutton">
+				<h2>Skill</h2>
+			</div>
+		<!--
+		  <br>
+          <h6>Programming Language:</h6><p>&nbsp&nbsp&nbsp&nbsp Jave, C, C++, SQL </p>
+		  <h6>Others:</h6><p>&nbsp&nbsp&nbsp&nbsp GIS</p>
+		  -->
+        </div>
+        <div class="col-md-4" id="Motivation">
+			<div class="mybutton">
+				<h2>Motivation</h2>
+			</div>
+          <!-- h2>Motivation</h2>
+          <br>
+		  <li>Learn JS/HTML/CSS</li>
+		  <li>Enjoy Teamwork</li>
+		  <br-->
+        </div>
+        <div class="col-md-4" id="Hobby">
+			<div class="mybutton">
+				<h2>Hobby</h2>
+			</div>
+          <!--h2>Hobby</h2>
+		  <br>
+          <h6>Sports:</h6><p>&nbsp&nbsp&nbsp&nbsp Soccer</p>
+		  <h6>Music:</h6><p>&nbsp&nbsp&nbsp&nbsp Ukelele</p-->
+		  
+        </div>
+      </div>
+	  
+	  <div class="row" id="PageRow1">
+        <div class="col-md-4" id="Skill_detail">
           <h2>Skill</h2>
 		  <br>
           <h6>Programming Language:</h6><p>&nbsp&nbsp&nbsp&nbsp Jave, C, C++, SQL </p>
 		  <h6>Others:</h6><p>&nbsp&nbsp&nbsp&nbsp GIS</p>
         </div>
-        <div class="col-md-4">
+      </div>
+	  
+	  <div class="row" id="PageRow2">
+        <div class="col-md-4" id="Motivation_detail">
           <h2>Motivation</h2>
           <br>
 		  <li>Learn JS/HTML/CSS</li>
 		  <li>Enjoy Teamwork</li>
 		  <br>
         </div>
-        <div class="col-md-4">
+      </div>
+	  
+	  <div class="row" id="PageRow3">
+        <div class="col-md-4" id="Hobby_detail">
           <h2>Hobby</h2>
 		  <br>
           <h6>Sports:</h6><p>&nbsp&nbsp&nbsp&nbsp Soccer</p>
 		  <h6>Music:</h6><p>&nbsp&nbsp&nbsp&nbsp Ukelele</p>
-		  
         </div>
       </div>
 
 	  
 	  <br><br><br><br><br>
 	  
+      
 	  
-      <hr>
-	  
-	  <footer>
+	  <footer id="PageFooter">
+	  <hr>
         <p>Contact<br>Email: e24046666@mail.ncku.edu.tw<br>github: <a href="https://github.com/Fandel-Lin">https://github.com/Fandel-Lin</a></p>
       </footer>
 
@@ -76,6 +119,7 @@
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
+	<script src="main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="ie10-viewport-bug-workaround.js"></script>
   </body>

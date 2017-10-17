@@ -65,38 +65,94 @@ footer {
 }
 
 #PageRow1{
-	position: absolute;
+	position: relative;
+	width: 100%;
 	transition: 0s;
 	top: 0px;
 	display: none;
 	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #Skill_detail{
-	max-width: 100%;
+	/*max-width: 100%;*/
+	padding: 50px;
+    background: lightgray;
+    border-radius: 50px;
 }
+
+#Skill_detail_pic{
+	position: relative;
+	/*max-width: 100%;*/
+	display: none;
+	margin: 5px;
+}
+
+#gis{
+	position: relative;
+	height: auto;
+}
+
 
 #PageRow2{
 	position: absolute;
+	width: 100%;
 	transition: 0s;
 	top: 0px;
 	display: none;
 	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #Motivation_detail{
-	max-width: 100%;
+	/*max-width: 100%;*/
+	padding: 50px;
+    background: lightgray;
+    border-radius: 50px;
 }
+
+#Motivation_detail_pic{
+	position: relative;
+	/*max-width: 100%;*/
+	display: none;
+	margin: 5px;
+}
+
+#html{
+	position: relative;
+	height: auto;
+}
+
 
 #PageRow3{
 	position: absolute;
+	width: 100%;
 	transition: 0s;
 	top: 0px;
 	display: none;
 	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #Hobby_detail{
-	max-width: 100%;
+	/*max-width: 100%;*/
+	padding: 50px;
+    background: lightgray;
+    border-radius: 50px;
+}
+
+#Hobby_detail_pic{
+	position: relative;
+	/*max-width: 100%;*/
+	display: none;
+	margin: 5px;
+}
+
+#pichu{
+	position: relative;
+	height: auto;
 }
 
